@@ -20,7 +20,7 @@ const Header = ({ dfs, bfs, reset }) => {
                 </ul>
 
                 {
-                    location.pathname === '/pathfinder' &&
+                    location.pathname.includes('pathfinder') &&
                     <ul>
                         <li>
                             <button className='button' onClick={dfs}>
