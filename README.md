@@ -1,5 +1,7 @@
-![nxfS3GGJHv](https://user-images.githubusercontent.com/62350169/132053986-f77d1ac3-17e6-480f-a1bd-26b746870cbf.gif)
 https://karimdev1999.github.io/pathfinder/
+
+![nxfS3GGJHv](https://user-images.githubusercontent.com/62350169/132053986-f77d1ac3-17e6-480f-a1bd-26b746870cbf.gif)
+
 
 # Getting Started with Create React App
 
