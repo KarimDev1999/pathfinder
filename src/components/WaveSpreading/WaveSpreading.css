@@ -1,0 +1,30 @@
+
+.wave {
+    background-color: rgb(35, 108, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: apperance 1.3s ease-in-out;
+}
+
+
+@keyframes apperance {
+    from {
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+    }
+    50% {
+        height: 30px;
+        width: 30px;
+        border-radius: 0%;
+    }
+    100%{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: lightblue;
+    }
+ 
+}

@@ -1,0 +1,46 @@
+.wall {
+    background-color: rgba(0,0,0, .9);
+}
+
+.start {
+    background: url('../../assets/start.svg') no-repeat center;
+    background-size: 25px;
+}
+
+.dest {
+    background: url('../../assets/dest.svg') no-repeat center;
+    background-size: 25px;
+}
+
+.visited {
+    background-color: rgba(108, 151, 243, 0.3);
+    animation: visitedAnimation 1s ease-in-out forwards;
+}
+
+.visitedNoAnimation {
+    background-color: rgba(108, 151, 243, 0.3);
+}
+
+.path {
+    background-color: rgba(55, 223, 105, .3);
+}
+
+
+@keyframes visitedAnimation {
+    from {
+        transform: scale(.4);
+        border-radius: 50%;
+    }
+    35% {
+        transform: scale(.5);
+        background-color: rgba(100, 89, 252, 0.5);
+    }
+    60% {
+        transform: scale(.6);
+        background-color: rgba(75, 114, 241, 0.6);
+    }
+    100% {
+        border-radius: 0%;
+        transform: scale(1);
+    }
+}
